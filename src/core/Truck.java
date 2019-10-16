@@ -19,6 +19,6 @@ public class Truck extends Vehicle {
 		System.out.print(this.getSpeed());
 		System.out.print(" mph, carrying ");
 		System.out.print(this.getCapacity());
-		System.out.println(" tonnes of cargo.");
+		System.out.println(" quintals of cargo.");
 	}
 }

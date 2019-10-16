@@ -47,14 +47,9 @@ public abstract class Vehicle {
 	}
 	
 	public double getSpeed() {
-		if (!this.isRunning())
-			return 0;
 		return this.speed;
 	}
 	public boolean setSpeed(double s) {
-		if(!this.isRunning())
-			return false;
-		
 		if(s <= this.maxSpeed) {
 			this.speed = s;
 			return true;
